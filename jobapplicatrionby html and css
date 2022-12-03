@@ -1,0 +1,76 @@
+<!-- html code-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="c.css">
+        <title>project1</title>
+</head>
+<body>
+<center>
+        <h1>JOB APPLICATION(WEB)</h1>
+        <form>
+<label for="hp">FIRSTNAME:</label>
+<input type="text" placeholder="enter first name" id="hp">
+     <label for="hb">LASTNAME:</label>
+<input type="text" placeholder="enter last name"id="hb"><br><br>
+<label for="ht">EMAIL:</label>
+<input type="email"placeholder="enter email" id="ht">
+<p>JOB ROLE:</p>
+<select>
+        <option value="val">backend developer</option>
+        <option value="val">frontend developer</option>
+        <option value="val">fullstack developer</option>
+        <option value="val"> SDE1</option>
+        <option value="val">SDE2</option>
+        <option value="val">SDE3</option>
+</select><br><br>
+<label>ENTER ADRESS:</label><br>
+<textarea cols="10" rows="10" fixed></textarea><br><br>
+<label for="hg">CITY:</label>
+<input type="text" placeholder="enter city" id="hg">
+<label for="hf">PINCODE:</label>
+<input type="number" placeholder="enter pincode"><br><br>
+<label>UPLOAD YOUR RESUME:</label>
+<input type="file">
+<label>PHONE:</label>
+<input type="number" placeholder="enter Phone number" id="hb">
+<br><br>
+
+<input type="submit">
+        </form>
+</center>
+        
+</body>
+</html>
+/*CSS CODE*/
+body{
+        border:solid 10px red;
+        height:600px;
+        border-radius: 10px;
+        background-image:radial-gradient(lightgreen,lightblue,lightblue,lightyellow,yellow);
+}
+form{
+
+        margin: 20px;
+        padding: 10px;
+}
+
+p{
+        font-size: 20px;
+        font-weight: bold;
+}
+label{
+        font-style: italic;
+        font-weight: bold;
+}
+input{
+        border: solid 2px red;
+        border-radius: 5px;
+}
+textarea{
+        border-radius: 5px;
+        border-color: red;
+}
