@@ -1,0 +1,26 @@
+body{
+        background-color: aquamarine;
+        border-style: solid;
+        border-color: black;
+        height: 600px;
+        border-width: 10px;
+        background-image:radial-gradient(yellow,lightgreen,lightblue,green,blue);
+}
+img{
+        height: 200px;
+        width: 200px;
+        border: groove red 10px;
+        box-shadow: 2px 2px 5px red;
+}
+p{
+        text-align: center;
+        text-decoration: solid;
+        font-size: 15px;
+        font-weight: bold;
+}
+a.active{
+        color: blue;
+}
+a.hover{
+        color:green;
+}
